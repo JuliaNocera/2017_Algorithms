@@ -57,9 +57,11 @@ hr:after {
   top: -13px;
 }
 
-.links {
+.renderLinks {
   display: flex;
   flex-direction: column;
+  margin-top: 35px;
+  font-size: 1.2em;
 }
 
 /*********** Algorithm Loader ***********/ 

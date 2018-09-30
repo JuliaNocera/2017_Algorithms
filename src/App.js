@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { RenderLink } from './links'
+import { RenderLink } from './renderLinks'
 
 class App extends Component {
 
@@ -16,9 +16,7 @@ class App extends Component {
           <h1 className="App-title">JavaScript Study</h1>
           <div className="App-subtitle">made with create-react-app</div>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+
         <RenderLink />
 				<br></br>
 				<hr></hr>
